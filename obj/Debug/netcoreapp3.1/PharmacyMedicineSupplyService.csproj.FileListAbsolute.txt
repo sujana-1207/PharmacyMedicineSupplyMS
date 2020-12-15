@@ -361,3 +361,4 @@ C:\Users\Lenovo\source\repos\MFPE\PharmacyMedicineSupplyMS\obj\Debug\netcoreapp3
 C:\Users\Lenovo\source\repos\MFPE\PharmacyMedicineSupplyMS\obj\Debug\netcoreapp3.1\PharmacyMedicineSupplyService.dll
 C:\Users\Lenovo\source\repos\MFPE\PharmacyMedicineSupplyMS\obj\Debug\netcoreapp3.1\PharmacyMedicineSupplyService.pdb
 C:\Users\Lenovo\source\repos\MFPE\PharmacyMedicineSupplyMS\obj\Debug\netcoreapp3.1\PharmacyMedicineSupplyService.genruntimeconfig.cache
+C:\Users\Lenovo\source\repos\MFPE\PharmacyMedicineSupplyMS\bin\Debug\netcoreapp3.1\PharmacyMedicineSupplyService.yaml

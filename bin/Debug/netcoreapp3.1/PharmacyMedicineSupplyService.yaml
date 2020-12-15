@@ -1,0 +1,33 @@
+﻿apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: pharmacymedicinesupplyservice-deployment
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: PharmacyMedicineSupplyServicethService
+  template:
+    metadata:
+      labels:
+        app: PharmacyMedicineSupplyServicethService
+    spec:
+      containers:
+      - name: pharmacymedicinesupplyservicerepos
+        image:medicinesupplycr.azurecr.io/pharmacymedicinesupplyservicerepos:latest
+        ports:
+        - containerPort: 8080
+      imagePullSecrets:
+      - name: pmsmsecret
+
+---
+apiVersion: v1
+kind: Service
+metadata:
+  name: pharmacymedicinesupplyservice
+spec:
+  type: LoadBalancer
+  ports:
+  - port: 80
+  selector:
+    app: PharmacyMedicineSupplyServicethService
