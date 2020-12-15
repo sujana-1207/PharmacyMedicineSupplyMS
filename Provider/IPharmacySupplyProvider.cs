@@ -9,6 +9,6 @@ namespace PharmacyMedicineSupplyService.Provider
     public interface IPharmacySupplyProvider
     {
         public Task<List<PharmacyMedicineSupply>> GetSupply(List<MedicineDemand> medicines);
-        public Task<int> GetStock(string medicine);
+       
     }
 }

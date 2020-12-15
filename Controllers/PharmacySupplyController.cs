@@ -11,7 +11,7 @@ using PharmacyMedicineSupplyService.Repository;
 
 namespace PharmacyMedicineSupplyService.Controllers
 {
-    [Authorize]
+   // [Authorize]
     [Route("[controller]")]
     [ApiController]
     public class PharmacySupplyController : ControllerBase
@@ -28,7 +28,7 @@ namespace PharmacyMedicineSupplyService.Controllers
             try
             {
                 var res = await _provider.GetSupply(m);
-                if(res!=null)
+                if (res.Count>0)
                 {
                     _log4net.Info("Pharmacy supply details successfully retrieved and sent.");
                     return Ok(res);
@@ -36,13 +36,13 @@ namespace PharmacyMedicineSupplyService.Controllers
                 _log4net.Info("No details retrieved");
                 return NotFound("No such details found please try again.");
             }
-            catch(Exception e)
+            catch (Exception e)
             {
                 _log4net.Error("Excpetion:" + e.Message + " has occurred while trying to retrieve supply info.");
                 return StatusCode(500);
             }
 
-            
+
         }
     }
 }

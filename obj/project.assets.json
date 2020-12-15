@@ -7213,19 +7213,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\wasim\\.nuget\\packages\\": {}
+    "C:\\Users\\Lenovo\\.nuget\\packages\\": {},
+    "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE\\PharmacyMedicineSupplyService-master\\PharmacyMedicineSupplyService.csproj",
+      "projectUniqueName": "C:\\Users\\Lenovo\\source\\repos\\MFPE\\PharmacyMedicineSupplyMS\\PharmacyMedicineSupplyService.csproj",
       "projectName": "PharmacyMedicineSupplyService",
-      "projectPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE\\PharmacyMedicineSupplyService-master\\PharmacyMedicineSupplyService.csproj",
-      "packagesPath": "C:\\Users\\wasim\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\wasim\\OneDrive\\Desktop\\MFPE\\PharmacyMedicineSupplyService-master\\obj\\",
+      "projectPath": "C:\\Users\\Lenovo\\source\\repos\\MFPE\\PharmacyMedicineSupplyMS\\PharmacyMedicineSupplyService.csproj",
+      "packagesPath": "C:\\Users\\Lenovo\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\Lenovo\\source\\repos\\MFPE\\PharmacyMedicineSupplyMS\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+      ],
       "configFilePaths": [
-        "C:\\Users\\wasim\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\Lenovo\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -7233,6 +7237,7 @@
       ],
       "sources": {
         "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "C:\\Users\\Lenovo\\Downloads": {},
         "https://api.nuget.org/v3/index.json": {}
       },
       "frameworks": {
